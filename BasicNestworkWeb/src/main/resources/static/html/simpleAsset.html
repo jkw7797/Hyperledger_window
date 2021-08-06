@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hyperledger Fabric Bank - Simple Asset</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="../js/my.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2> 나의 자산 관리</h2>
+  
+    <span class="form-group">
+      ID:<input type="text" class="form-control" id="id" >
+    </span>
+    <button type="button" class="btn btn-info" id="getAssetBtn"> 자산 확인 </button>
+    
+    <hr>
+    
+    <span class="form-group">
+      ID:<input type="text" class="form-control" id="id2" >
+    </span>
+    <span class="form-group">
+      AMOUNT:<input type="number" class="form-control" id="amount" >
+    </span>
+    <button type="button" class="btn btn-warning" id="setAssetBtn"> 자산 정리 </button>
+    
+    <hr>
+    <span class="form-group">
+      FROM:<input type="text" class="form-control" id="from_id" >
+    </span>
+    <span class="form-group">
+      TO:<input type="text" class="form-control" id="to_id" >
+    </span>
+    <span class="form-group">
+      AMOUNT:<input type="text" class="form-control" id="amount2" >
+    </span>
+    <button type="button" class="btn btn-warning" id="sendAssetBtn"> 자산 전송 </button>
+   
+</div>
+
+</body>
+</html>
